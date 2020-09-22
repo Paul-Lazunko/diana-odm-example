@@ -1,0 +1,22 @@
+{
+  "name": "diana-odm-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Paul-Lazunko/diana-odm-example.git"
+  },
+  "author": "Paul Lazunko",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Paul-Lazunko/diana-odm-example/issues"
+  },
+  "homepage": "https://github.com/Paul-Lazunko/diana-odm-example#readme",
+  "dependencies": {
+    "diana-db-odm": "0.0.2"
+  }
+}

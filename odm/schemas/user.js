@@ -6,6 +6,10 @@ export const userSchema = {
     isUnique: true,
     isRequired: true
   },
+  age: {
+    type: Types.NUMBER,
+    default: 0
+  },
   isActive: {
     type: Types.BOOLEAN,
     default: true
@@ -15,6 +19,8 @@ export const userSchema = {
   },
   createdAt: {
     type: Types.TIME,
-    isRequired: true
+    default: () => {
+      return new Date().toISOString()
+    }
   }
 };

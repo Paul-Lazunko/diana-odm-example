@@ -15,6 +15,8 @@ export const postSchema = {
   },
   createdAt: {
     type: Types.TIME,
-    isRequired: true
+    default: () => {
+      return new Date().toISOString()
+    }
   }
 };

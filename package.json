@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/Paul-Lazunko/diana-odm-example#readme",
   "dependencies": {
-    "diana-db-odm": "^0.1.0"
+    "diana-db-odm": "^0.1.1"
   }
 }
